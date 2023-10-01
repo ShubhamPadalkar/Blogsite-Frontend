@@ -188,8 +188,8 @@ export default function PostsList() {
                               <img
                                 className="h-10 w-10 rounded-full"
                                 src={
-                                  post?.user?.image?.profilePhoto
-                                    ? post?.user?.image?.profilePhoto
+                                  post?.user?.profilePhoto
+                                    ? post?.user?.profilePhoto
                                     : "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
                                 }
                                 alt=""

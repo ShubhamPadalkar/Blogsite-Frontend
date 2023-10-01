@@ -15,14 +15,14 @@ const UsersListItem = ({user}) => {
               alt="profile "
             />
             <div>
-              <p className="text-sm font-medium">Full name</p>
-              <p className="text-xs text-gray-500">Email</p>
+              <p className="text-sm font-medium">{user?.firstname + ' ' + user?.lastname}</p>
+              <p className="text-xs text-gray-500">{user?.email}</p>
             </div>
           </div>
           <div className="w-1/2 lg:w-2/12 px-4 mb-6 lg:mb-0">
             <p className="py-1 px-2 text-xs text-purple-500 bg-purple-50 rounded-full">
               {user?.isAdmin ? "Admin" : "Standard User"}
-              {/* <span>{user?.user?.isBlocked && "Blocked"}</span> */}
+              <span>{user?.user?.isBlocked && "Blocked"}</span>
             </p>
           </div>
           <div className="w-1/2 lg:w-2/12 px-4 mb-6 lg:mb-0">

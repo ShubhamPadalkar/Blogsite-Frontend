@@ -19,9 +19,7 @@ const UsersListHeader = user => {
           Authors List - {user?.users?.length}
         </h1>
         <p className='mt-6 text-xl text-indigo-100 max-w-3xl'>
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque
-          lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut
-          consectetur. Sit justo viverra non adipisicing elit distinctio.
+          Users list
         </p>
       </div>
     </div>

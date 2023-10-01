@@ -69,7 +69,6 @@ export default function CreatePost() {
         description:values?.description,
         image:values?.image
       }
-    console.log(data)
       //dispath the action
       dispatch(createpostAction(data))
     },
